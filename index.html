@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLOW — Beauty Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+        GLOW<span>.</span>
+    </a>
+
+    <nav>
+        <a href="index.html" class="activo">Inicio</a>
+        <a href="unas.html">Uñas</a>
+        <a href="pestanas.html">Pestañas</a>
+        <a href="peinados.html">Hair & Braids</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <p class="mini-titulo">BEAUTY STUDIO · 2026</p>
+
+            <h1>I´M MY<br><span>OWN MUSE.</span></h1>
+
+            <p class="descripcion">
+                Uñas, pestañas y peinados para que armes
+                tu propio estilo. Porque copiar está bien,
+                pero hacerlo tuyo es mejor.
+            </p>
+
+            <a href="#turnos" class="boton">QUIERO MI TURNO →</a>
+
+        </div>
+
+        <div class="hero-img">
+            <img src="img/Logo.jpg" alt="Beauty">
+            <div class="sticker">
+
+            </div>
+        
+
+    </section>
+
+
+    <section class="intro">
+
+        <p class="mini-titulo">Bienvenida</p>
+
+        <h2>Tu look empieza<br>por <span>vos. <br> </span></h2>
+
+       
+        <p>
+            Acá no hay reglas. Elegí un diseño, mezclá estilos,
+            cambiá de idea y probá algo nuevo.
+            La idea es que salgas sintiéndote vos.
+        </p>
+
+    </section>
+
+
+    <section class="servicios">
+
+        <div class="section-title">
+            
+            <h2>¿Qué hacemos?</h2>
+        </div>
+
+        <div class="servicios-grid">
+
+            <a href="unas.html" class="servicio">
+
+
+                <img src="img/french.jpg" alt="Uñas">
+
+                <div>
+                    <h3>NAILS</h3>
+                    <p>Nail art · French · diseños</p>
+                </div>
+
+            </a>
+
+
+            <a href="pestanas.html" class="servicio">
+
+
+                <img src="img/extensiones.jpg" alt="Pestañas">
+
+                <div>
+                    <h3>LASHES</h3>
+                    <p>Lifting · extensiones · natural</p>
+                </div>
+
+            </a>
+
+
+            <a href="peinados.html" class="servicio">
+
+
+                <img src="img/box_braids.jpg" alt="Trenzas">
+
+                <div>
+                    <h3>HAIR & BRAIDS</h3>
+                    <p>Trenzas · box braids · peinados</p>
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <section class="frase">
+
+        <p>
+            “No necesitás una ocasión especial
+            para sentirte increíble.”
+        </p>
+
+        <span>— GLOW</span>
+
+    </section>
+
+
+    <section id="turnos" class="turnos">
+
+        <div class="turnos-text">
+
+        
+
+            <h2>¿Nos vemos<br>pronto?</h2>
+
+            <p>
+                Completá el formulario y contanos qué
+                querés hacerte. Después coordinamos tu turno.
+            </p>
+
+        </div>
+
+
+        <form action="#" method="POST">
+
+            <fieldset>
+
+                <legend>Tu Informacion</legend>
+
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre"
+                placeholder="Tu nombre" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"
+                placeholder="tuemail@gmail.com" required>
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono"
+                placeholder="Tu número" required>
+
+            </fieldset>
+
+
+            <fieldset>
+
+                <legend>Elige tu look</legend>
+
+                <label for="servicio">¿Qué querés hacerte?</label>
+
+                <select id="servicio" name="servicio" required>
+
+                    <option value="">Elegí una opción</option>
+                    <option value="unas">Uñas</option>
+                    <option value="pestanas">Pestañas</option>
+                    <option value="peinado">Peinado</option>
+                    <option value="trenzas">Trenzas africanas</option>
+
+                </select>
+
+
+                <p class="pregunta">¿Qué estilo te representa?</p>
+
+                <label class="check">
+                    <input type="radio" name="estilo" value="natural">
+                    Natural
+                </label>
+
+                <label class="check">
+                    <input type="radio" name="estilo" value="clasico">
+                    Clásico
+                </label>
+
+                <label class="check">
+                    <input type="radio" name="estilo" value="atrevido">
+                    Llamativo
+                </label>
+
+            </fieldset>
+
+
+            <fieldset>
+
+                <legend>Contanos</legend>
+
+                <label for="comentarios">
+                    ¿Tenés alguna idea?
+                </label>
+
+                <textarea
+                    id="comentarios"
+                    name="comentarios"
+                    rows="5"
+                    placeholder="Mandanos tu idea, referencia o contanos qué estás buscando..."
+                ></textarea>
+
+                <label class="check">
+                    <input type="checkbox" name="contacto" required>
+                    Quiero que me contacten para coordinar el turno.
+                </label>
+
+            </fieldset>
+
+
+            <div class="form-buttons">
+
+                <button type="submit">ENVIAR →</button>
+
+                <button type="reset">LIMPIAR</button>
+
+            </div>
+
+        </form>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">GLOW<span>.</span></div>
+
+    <p>NAILS · LASHES · HAIR · BRAIDS</p>
+
+    <p class="copyright">© 2026 GLOW BEAUTY STUDIO</p>
+
+</footer>
+
+</body>
+</html>
